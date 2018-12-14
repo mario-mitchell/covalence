@@ -1,0 +1,52 @@
+body{
+    background-color: lightgrey;
+}
+
+p, .readme-wrapper, h2 {
+    font-family: shadows into light;
+  }
+
+a{
+    text-decoration: none;
+}
+
+.boxes{
+    display: inline-block;
+    margin: .5px;
+    padding: .5px;
+    border: solid;
+    border-radius: 20px;
+}
+
+a:hover {
+    color: maroon;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  span{
+      color: green;
+      font-weight: bold;
+  }
+
+  .boxes{
+      display: block;
+      width: 20%;
+  }
+
+#box1{
+      background-color: maroon; 
+  }
+
+#box2{
+    background-color: navy; 
+    position: absolute;
+}
+
+#box3{
+    background-color: darkgreen;
+}
+
+#box4{
+    background-color: yellow;
+}
